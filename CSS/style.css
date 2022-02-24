@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.margin-btm {
+    margin-bottom: 2em;
+}
+
+body {
+    border: 1.5em solid lightgray;
+     
+}
+
+.center-div {
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+section {
+    width: auto;
+    border: 1px solid lightgray;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <nav class="ui attached stackable menu">
+        <div class="ui container">
+          <a class="item">
+            <i class="home icon"></i> Home
+          </a>
+          <a class="item">
+            <i class="grid layout icon"></i> Browse
+          </a>
+          <a class="item">
+            <i class="mail icon"></i> Messages
+          </a>
+          <div class="ui simple dropdown item">
+            More
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item"><i class="edit icon"></i> Edit Profile</a>
+              <a class="item"><i class="globe icon"></i> Choose Language</a>
+              <a class="item"><i class="settings icon"></i> Account Settings</a>
+            </div>
+          </div>
+          <div class="right item">
+            <div class="ui input"><input type="text" placeholder="Search..."></div>
+          </div>
+        </div>
+    </nav>
+    
+    <section class="">
+        
+        <div class="center-div">
+            <h2 class="ui header">JS Calculator</h2>
+            <div class="ui input margin-btm">
+                <input id="inputRead" size="26" type="text" readonly>
+            </div>
+            <div class="margin-btm">
+                <button id="seven"  class="ui button">
+                    7
+                </button>
+                <button id="eight" class="ui button">
+                    8
+                </button>
+                <button id="nine" class="ui button">
+                    9
+                </button>
+                <button id="plus" class="ui button">
+                    +
+                </button>
+            </div>
+            <div class="margin-btm">
+                <button id="four" class="ui button">
+                    4
+                </button>
+                <button id="five" class="ui button">
+                    5
+                </button>
+                <button id="six" class="ui button">
+                    6
+                </button>
+                <button id="minus" class="ui button">
+                    -
+                </button>
+            </div>
+            <div class="margin-btm">
+                <button id="one" class="ui button">
+                    1
+                </button>
+                <button id="two" class="ui button">
+                    2
+                </button>
+                <button id="three" class="ui button">
+                    3
+                </button>
+                <button id="times" class="ui button">
+                    *
+                </button>
+            </div>
+            <div class="margin-btm">
+                <button id="zero" class="ui button">
+                    0
+                </button>
+                <button id="dot" class="ui button">
+                    .
+                </button>
+                <button id="slash" class="ui button">
+                    /
+                </button>
+                <button id="equal" class="ui button" onclick="evall()">
+                    =
+                </button>
+            </div>
+            <button id="clear" class="ui button" onclick="clr()">
+                C
+            </button>
+        </div>
+
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
